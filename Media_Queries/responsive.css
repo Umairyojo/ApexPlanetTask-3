@@ -1,0 +1,33 @@
+/* Media Queries code */
+/* above 1024 is huge screens */
+@media (max-width: 1024px) {
+    /* this one is for Tablet view */
+    body {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    header {
+        text-align: left;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Mobile view (small screens)*/
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
